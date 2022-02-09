@@ -1,0 +1,164 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+	margin: 0;
+	font-family: Roboto;
+}
+h2{
+	font-size: 30px;
+}
+p{
+	font-size: 30;
+}
+/* Navbar */
+
+#navbar {
+	background-color: #416788;
+	color: #E0E0E2;
+	padding: 0 15px;
+	height: 60px;
+}
+#navbar h2, #navbar ul, #navbar-list li
+{
+	display: inline-block;
+}
+
+#navbar h2 {
+	margin: 0;
+	line-height: 60px;
+	margin-left: 55px;
+}
+#navbar img
+{
+	height: 50px;
+	position: absolute;
+	top: 10px;
+}
+
+#navbar nav {
+	float: right;
+}
+
+#navbar ul{
+	margin-top: 22px;
+}
+#navbar li
+{
+	margin: 0 10px;
+}
+
+#navbar-list li a
+{
+ text-decoration: none;
+ color: #E0E0E2;
+}
+
+#navbar-list li a:hover {
+	border-bottom: 1px solid #E0E0E2;
+}
+
+/* banner */
+
+#banner-info h1 {
+	background-color: #416788;
+	margin-top: auto;
+	margin-left: auto;
+	padding: 15px;
+}
+#main-banner {
+	height: 70vh;
+	background-image: url("img/contato.jpg");
+	background-size: cover;
+	padding-top: 15vh;
+}
+
+#banner-info{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #E0E0E2;
+	padding: 50px;
+}
+
+#banner-info img {
+	height: 120px;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#banner-info p {
+	background-color: #416788;
+	font-weight: bold;
+	width: auto;
+	margin-top: auto;
+	margin-left: auto;
+	padding: 15px;
+}
+
+/* section */
+
+#section {
+	padding: 10px 0;
+	background-color: #E0E0E2;
+	color: #E0E0E2;
+	text-align: center;
+}
+
+#section h2 {
+	color: #416788;
+	margin-bottom: 40px;
+	font-size: 50px;
+}
+
+#section p {
+	margin-bottom: 50px;
+	font-size: 30px;
+	color: #416788 ;
+}
+
+#section a {
+	font-weight: bold;
+	color: #416788;
+}
+
+#section img {
+	height: 50px;
+	margin: 30px 0;
+}
+#section form {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+section input, footer textarea {
+	border: none;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	width: 100%;
+	display: block;
+}
+/* footer */
+
+footer {
+	padding: 10px 0;
+	background-color: #416788;
+	color: #E0E0E2;
+	text-align: center;
+}
+
+footer img {
+	height: 50px;
+	margin: 30px 0;
+}
+
+footer p {
+	margin-top: 22px;
+}
+
+
+footer .detail {
+	font-weight: bold;
+}
